@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 1226px;
+    height: 568px;
+    margin: auto;
+}
+
+#header{
+    width: 550px;
+    height: 43px;
+    background-color: #5c90c4;
+}
+
+.ban{
+    width: 550px;
+    height: 525px;
+    float: left;
+}
+
+#cacban{
+    width: 568px;
+}
+
+#display-ban{
+    display:inline;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#thongtin-ban{
+    width: 676px;
+    height: 568px;
+    float: right;
+    background-color: #e5e5e5;
+}

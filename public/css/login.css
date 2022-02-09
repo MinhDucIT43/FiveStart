@@ -1,0 +1,117 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #66FF51;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+        width: 1366px;
+        height: 625px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 30%;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: -150px;
+        left: 200px;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+#label-tendangnhap{
+    margin-top: 40px;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+label{
+    font-weight: bold;
+}
+
+#dangnhap-img{
+    position: relative;
+    left: 40px
+}
+
+.sidenav{
+    font-size: 70px;
+    text-align: center;
+}
+
+.login-main-text{
+    position: relative;
+    top: -50px;
+}
+
+#alert-xoa{
+    background-color: #edcece;
+    border-color: #eab2b2;
+    color: red;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 10px 25px 10px 25px;
+    display: inline;
+}
